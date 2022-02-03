@@ -1,3 +1,83 @@
-p{
-    color: royalblue;
+*{
+    box-sizing: border-box;
 }
+
+/* .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(70, 197, 45);
+}
+.wrapper div:not(.item5){
+    margin-bottom: 50px;
+}
+.item1:hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all .4s linear;
+}
+button{
+    width: 100px;
+    height: 50;
+    background-color: darkolivegreen;
+
+}
+button:disabled{
+    background-color: rgb(255, 0, 0);
+}
+#id:checked{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+}
+.wrapper div:nth-child(odd){
+    background-color: rgb(23, 211, 211);
+    border: 1px solid red;
+}
+.wrapper div:nth-child(3n + 2){
+    background-color: rgb(7, 87, 31);
+    border: 1px solid red;
+}
+p:first-letter{
+    font-size: 50px;
+}
+p::first-line{
+    color: darkmagenta;
+}
+p::before{
+    content: '!';
+}
+.item10{
+    padding: 20px;
+    border: 1pc groove rgb(189, 111, 111);
+    margin: 20px;
+    height: 50vh;
+    width: 50vw;
+} */
+
+.wrapper div{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+.wrapper{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    height: 200vh;
+}
+
+.box1{
+    position: sticky;
+    left:  50px;
+    top: 50px;
+}
+
+
+
+
